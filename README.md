@@ -10,7 +10,7 @@ Terraform 0.12 and newer.
 
 ```hcl
 module "vpce" {
-  source          = "/path/to/module/terraform-aws-vpce"
+  source          = "/path/to/module/terraform-aws-vpce-ssm"
   name            = var.name
   region          = var.region
   vpc_id          = var.vpc
